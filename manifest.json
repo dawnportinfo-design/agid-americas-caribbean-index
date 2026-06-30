@@ -1,15 +1,218 @@
 {
-  "version": "agid-americas-region-index-manifest-v1",
+  "schemaVersion": "agid-index-repository-manifest-v0.1",
   "repository": "agid-americas-caribbean-index",
-  "owner": "dawnportinfo-design",
   "kind": "region-index",
-  "status": "completed-region-index-seed",
-  "description": "AGID Caribbean index for Americas country and territory repository coordination.",
-  "continent": "americas",
+  "owner": "dawnportinfo-design",
+  "canonicalContinent": "americas",
   "region": "caribbean",
-  "parentRepository": "agid-americas-index",
-  "storesPersonalAddressMaterial": false,
-  "countryParentRepositoryCount": 28,
-  "childLogicalRepositoryCount": 0,
-  "defaultBranch": "main"
+  "stage": "wave-0-index",
+  "indexReady": true,
+  "sourcePlanVersion": "agid-americas-repository-creation-plan-v1",
+  "generatedAt": "2026-06-28T12:54:28.908Z",
+  "privacy": {
+    "rawAddressStorage": false,
+    "recipientStorage": false,
+    "precisePrivateCoordinates": false,
+    "witnessMaterial": false,
+    "privateKeys": false,
+    "carrierOperationalData": false
+  },
+  "relatedRepositories": [
+    {
+      "repository": "agid-country-cu",
+      "kind": "country-parent",
+      "countryCode": "CU",
+      "countryName": "Cuba",
+      "stage": "wave-1-country-parent"
+    },
+    {
+      "repository": "agid-country-ht",
+      "kind": "country-parent",
+      "countryCode": "HT",
+      "countryName": "Haiti",
+      "stage": "wave-1-country-parent"
+    },
+    {
+      "repository": "agid-country-do",
+      "kind": "country-parent",
+      "countryCode": "DO",
+      "countryName": "Dominican Republic",
+      "stage": "wave-1-country-parent"
+    },
+    {
+      "repository": "agid-country-pr",
+      "kind": "country-parent",
+      "countryCode": "PR",
+      "countryName": "Puerto Rico (US)",
+      "stage": "wave-1-country-parent"
+    },
+    {
+      "repository": "agid-country-jm",
+      "kind": "country-parent",
+      "countryCode": "JM",
+      "countryName": "Jamaica",
+      "stage": "wave-1-country-parent"
+    },
+    {
+      "repository": "agid-country-bs",
+      "kind": "country-parent",
+      "countryCode": "BS",
+      "countryName": "Bahamas",
+      "stage": "wave-1-country-parent"
+    },
+    {
+      "repository": "agid-country-tt",
+      "kind": "country-parent",
+      "countryCode": "TT",
+      "countryName": "Trinidad and Tobago",
+      "stage": "wave-1-country-parent"
+    },
+    {
+      "repository": "agid-country-vi",
+      "kind": "country-parent",
+      "countryCode": "VI",
+      "countryName": "US Virgin Islands (US)",
+      "stage": "wave-1-country-parent"
+    },
+    {
+      "repository": "agid-country-vg",
+      "kind": "country-parent",
+      "countryCode": "VG",
+      "countryName": "British Virgin Islands",
+      "stage": "wave-1-country-parent"
+    },
+    {
+      "repository": "agid-country-ky",
+      "kind": "country-parent",
+      "countryCode": "KY",
+      "countryName": "Cayman Islands",
+      "stage": "wave-1-country-parent"
+    },
+    {
+      "repository": "agid-country-tc",
+      "kind": "country-parent",
+      "countryCode": "TC",
+      "countryName": "Turks and Caicos",
+      "stage": "wave-1-country-parent"
+    },
+    {
+      "repository": "agid-country-gp",
+      "kind": "country-parent",
+      "countryCode": "GP",
+      "countryName": "Guadeloupe",
+      "stage": "wave-1-country-parent"
+    },
+    {
+      "repository": "agid-country-mq",
+      "kind": "country-parent",
+      "countryCode": "MQ",
+      "countryName": "Martinique",
+      "stage": "wave-1-country-parent"
+    },
+    {
+      "repository": "agid-country-bb",
+      "kind": "country-parent",
+      "countryCode": "BB",
+      "countryName": "Barbados",
+      "stage": "wave-1-country-parent"
+    },
+    {
+      "repository": "agid-country-lc",
+      "kind": "country-parent",
+      "countryCode": "LC",
+      "countryName": "Saint Lucia",
+      "stage": "wave-1-country-parent"
+    },
+    {
+      "repository": "agid-country-vc",
+      "kind": "country-parent",
+      "countryCode": "VC",
+      "countryName": "St. Vincent & Grenadines",
+      "stage": "wave-1-country-parent"
+    },
+    {
+      "repository": "agid-country-gd",
+      "kind": "country-parent",
+      "countryCode": "GD",
+      "countryName": "Grenada",
+      "stage": "wave-1-country-parent"
+    },
+    {
+      "repository": "agid-country-dm",
+      "kind": "country-parent",
+      "countryCode": "DM",
+      "countryName": "Dominica",
+      "stage": "wave-1-country-parent"
+    },
+    {
+      "repository": "agid-country-kn",
+      "kind": "country-parent",
+      "countryCode": "KN",
+      "countryName": "Saint Kitts and Nevis",
+      "stage": "wave-1-country-parent"
+    },
+    {
+      "repository": "agid-country-ag",
+      "kind": "country-parent",
+      "countryCode": "AG",
+      "countryName": "Antigua and Barbuda",
+      "stage": "wave-1-country-parent"
+    },
+    {
+      "repository": "agid-country-aw",
+      "kind": "country-parent",
+      "countryCode": "AW",
+      "countryName": "Aruba",
+      "stage": "wave-1-country-parent"
+    },
+    {
+      "repository": "agid-country-cw",
+      "kind": "country-parent",
+      "countryCode": "CW",
+      "countryName": "Curacao",
+      "stage": "wave-1-country-parent"
+    },
+    {
+      "repository": "agid-country-sx",
+      "kind": "country-parent",
+      "countryCode": "SX",
+      "countryName": "Sint Maarten",
+      "stage": "wave-1-country-parent"
+    },
+    {
+      "repository": "agid-country-mf",
+      "kind": "country-parent",
+      "countryCode": "MF",
+      "countryName": "Saint Martin",
+      "stage": "wave-1-country-parent"
+    },
+    {
+      "repository": "agid-country-bl",
+      "kind": "country-parent",
+      "countryCode": "BL",
+      "countryName": "St. Barthelemy",
+      "stage": "wave-1-country-parent"
+    },
+    {
+      "repository": "agid-country-ai",
+      "kind": "country-parent",
+      "countryCode": "AI",
+      "countryName": "Anguilla",
+      "stage": "wave-1-country-parent"
+    },
+    {
+      "repository": "agid-country-ms",
+      "kind": "country-parent",
+      "countryCode": "MS",
+      "countryName": "Montserrat",
+      "stage": "wave-1-country-parent"
+    },
+    {
+      "repository": "agid-country-bq",
+      "kind": "country-parent",
+      "countryCode": "BQ",
+      "countryName": "Caribbean Netherlands",
+      "stage": "wave-1-country-parent"
+    }
+  ]
 }
